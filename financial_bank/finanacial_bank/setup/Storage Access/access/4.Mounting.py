@@ -7,7 +7,6 @@ container="Bank-silver"
 
 # COMMAND ----------
 
-
 # create the configs dictionary
 configs = {
         "fs.azure.account.auth.type": "OAuth",
