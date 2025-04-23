@@ -1,4 +1,4 @@
-# Databricks notebook source
+# Databricks notebook source  
 # MAGIC %sql
 # MAGIC create table db_projects.dev.wateremark_silver
 # MAGIC (process_name string, watermark_time timestamp)
