@@ -124,3 +124,8 @@ except Exception as e:
     error_function(error_message)
             
         
+
+# COMMAND ----------
+
+# MAGIC %sql
+# MAGIC select * from db_projects.dev.feature_loan_txn
