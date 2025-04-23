@@ -17,4 +17,3 @@
 # MAGIC ('Ingest customer_drivers','1999-12-31T00:00:00.313+00:00'),
 # MAGIC ('Ingest transactions','1999-12-31T00:00:00.313+00:00')
 # MAGIC
-# MAGIC
