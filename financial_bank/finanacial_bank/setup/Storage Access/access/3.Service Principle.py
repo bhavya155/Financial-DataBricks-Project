@@ -13,5 +13,4 @@ spark.conf.set(f"fs.azure.account.oauth2.client.secret.{account_storage}.dfs.cor
 spark.conf.set(f"fs.azure.account.oauth2.client.endpoint.{account_storage}.dfs.core.windows.net", f"https://login.microsoftonline.com/{tenant_id}/oauth2/token")
 
 # COMMAND ----------
-
 dbutils.fs.ls("abfss://raw@devdbde.dfs.core.windows.net")
