@@ -1,2 +1,2 @@
-# Databricks notebook source
+# Databricks notebook source  
 dbutils.secrets.get('sp-adls',clientid)
