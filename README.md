@@ -4,6 +4,11 @@ This project implements a real-world data pipeline for a U.S.-based bank using *
 
 ---
 
+## 🚀 Architecture
+![financial archi](https://github.com/user-attachments/assets/0c4e624c-6a10-4bc7-9e01-ffc6be34b9d3)
+
+
+
 ## 🚀 Objective
 
 Build an end-to-end pipeline that:
