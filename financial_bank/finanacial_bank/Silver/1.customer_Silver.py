@@ -56,15 +56,15 @@ def readFile(file_schema):
         )
 try:
     def process():
-        print(f"\nStarting Bronze Stream...", end="")
+        print(f"\nStarting silver Stream...", end="")
         file_schema=getSchema()
         customersDF = readFile(file_schema)
-        customersDF.dropDuplicates().write.mode("append").saveAsTable("db_projects.dev.customers_bz")
+        customersDF.dropDuplicates().write.mode("append").saveAsTable("db_projects.dev.customers_sv")
         spark.sql("""update db_projects.dev.wateremark
                     set watermark_time=current_timestamp()
                     where process_name='Ingest customers'""")
         print("Done")
-        audit(customersDF,'db_projects.dev.customers_bz')
+        audit(customersDF,'db_projects.dev.customers_sv')
     process()
 except Exception as e:
     error_message=f"Error:{e}"
