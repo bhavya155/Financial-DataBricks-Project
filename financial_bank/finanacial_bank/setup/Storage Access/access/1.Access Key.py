@@ -13,7 +13,6 @@ print(f"My name is {name_var}")
 # COMMAND ----------
 
 
-
 # COMMAND ----------
 
 Access_Key='sckhhW8bs9nO4vNOm+M1IYQxD+/dyfzbfitp06iiqY0QPIfTz+4LlvtMYmt0o0U5kveKJB5niXuG+AStk9ULsQ=='
