@@ -1,4 +1,4 @@
-# 🏦 Financials - Bank Loan Analysis Using Databricks Delta Lakehouse
+# 🏦End-to-End Incremental Data Pipeline
 
 This project implements a real-world data pipeline for a U.S.-based bank using **Databricks**, **Delta Lake**, and **incremental loading techniques** to support both **marketing** and **finance** teams with enriched and aggregated data for analysis and reporting.
 
